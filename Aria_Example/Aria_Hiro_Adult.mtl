@@ -576,8 +576,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
+map_Kd textures\mamory.png
+uprop c
+vprop c
 
 newmtl seam_ZZDECAL_ZZENV.001_groove.001
 Ns 96.078431
@@ -592,7 +593,7 @@ map_Kd textures\groove.png
 uprop c
 vprop c
 
-newmtl seam_ZZDECAL_ZZENV.001_mamary.001
+newmtl seam_ZZDECAL_ZZENV.001_shine
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.367228 0.367228 0.367228
@@ -601,9 +602,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\mamory.png
-uprop c
-vprop c
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
 
 newmtl shine_TEXGEN
 Ns 0.000000

@@ -11,7 +11,7 @@ Before you complain please make sure
 
   This DOESNT work with normal 1.1/1.2 (out of the box).
 
-  I realize it said 1.2 in the manifest but the dubug rom is based on the 1.2 codebase
+  I realize it said 1.2 in the manifest but the debug rom is based on the 1.2 codebase
 
   If you see pink use the built in texture finder.
 

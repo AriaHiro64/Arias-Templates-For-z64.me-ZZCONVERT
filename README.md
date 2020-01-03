@@ -9,7 +9,7 @@ read the gpl3, you should be ok to do what you please. theres not really a code 
 if you do something nuts. Im not resposible for your behavior. Nor am I policing it. Dont film dead bodies or cause a race war 
 and you should be fine.
 
-If you are looking to use the skins all you need is the .zobj and manifest.txt files (usually aria's)
+If you are looking to use the skins all you need is the to build a.zobj and manifest.txt files (usually aria's)
 if you are looking to play around with the source files be my guest.
 if you want yours added contact me or make a pull request. (this requires posting the source files or I'm not accepting it)
 
@@ -38,7 +38,9 @@ Before you complain please make sure
 
   If you see pink use the built in texture finder.
 
-  Understand that 2.8 isnt supported quite yet.2.79 is best for oot for now.
+  Understand that 2.8 isnt supported for oot quite yet. 2.79 is best for oot for now.
+  
+  Understand that 2.8 is required for sm64. The decompile is recommended but isnt required.
 
   Understand that no piracy is and will be involved on my end. Buy what you modify.
 

@@ -48,7 +48,11 @@ DICTIONARY
     DL_SWORD_HILT         0x0183C8    "Hilt.1"
     DL_SWORD_BLADE        0x018678    "Blade.1"
     DL_MASTER_SWORD       0x018FC8    "Blade.2"
+<<<<<<< HEAD
     DL_BOTTLE             0x02d648    "Bottle"
+=======
+    DL_BOTTLE             0x0194A8    "Bottle"
+>>>>>>> 7ad34b9b3d7bc788146105e502322c43a3a21211
     DL_BOOMERANG          0x019900    "Boomerang"
     DL_SHIELD_DEKU        0x019D58    "Shield.1"
     DL_SHIELD_HYLIAN_BACK 0x019FA0    "Shield.2"

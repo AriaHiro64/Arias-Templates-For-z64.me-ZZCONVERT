@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Arias-Templates-For-z64.me-ZZCONVERT
+
+Arias-Templates-For-z64.me-ZZCONVERT
 Additional models for zzconvert and fixes
 
 Warning:this is protected by the GNU general public licence, and legally binding.
@@ -20,8 +20,8 @@ ganondork for improving textures and overall quality assurance
 skillarbobcock for the base MM Adult link model, mastersword model and overall help
 Zelda Boy for ripping Other MM assets required
 Special thanks to the zelda community for even putting a smile on one persons face.
-=======
-# zzconvert-Blender-Link-Templates
+
+zzconvert-Blender-Link-Templates
 Additional Templates for zzconvert
 
 Before you complain please make sure
@@ -51,4 +51,7 @@ Contents:
 Aria - This is my hello world model that ive use to tinker with.
  
         Expect more work put on this as breakthroughs with this trickle down to other models.
->>>>>>> 7ad34b9b3d7bc788146105e502322c43a3a21211
+
+OC - an oc I am doing for someone
+
+Sashed, vanilla oot but with a baldric from MM

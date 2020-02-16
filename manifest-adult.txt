@@ -1,4 +1,5 @@
 DICTIONARY
+  VROM_PLAYER_ANIME    0x004E5C00        "misc/link_animetion"                      // Link's animations
   VROM_CODE            0x00A94000        "system/code"                              // start of code within rom
   VROM_SS_STICK        E_16                                                         // ovl_Effect_Ss_Stick is effect 16
   VROM_ARMS_HOOK       A_102                                                        // Arms_Hook is actor 102
@@ -9,7 +10,7 @@ DICTIONARY
                                                                                     // be written at this address
   SEG                  0x06000000                                                   // ram segment
   OBJ_BOY              0x0014                                                       // object_link_boy object number
-  VROM_PAUSESCREEN     0xBE2730           "system/ovl_kaleido_scope.zovl"           // player overlay
+  VROM_PAUSESCREEN     0x00BE2730           "system/ovl_kaleido_scope.zovl"           // player overlay
   USE_YL               0x01
   USE_AL               0x00
   USE_BOTH             0x09

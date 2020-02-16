@@ -4,7 +4,7 @@ Additional models for zzconvert and fixes
 
 Warning:this is protected by the GNU general public licence, and legally binding.
 
-If you didnt do dick to make these models dont try to claim them. other than that as long as you post your modification source,
+If you didnt do dick to make these models dont try to claim them (the aria is technically co owned by a defunct game studio but eh). other than that as long as you post your modification source,
 read the gpl3, you should be ok to do what you please. theres not really a code of conduct but i will seperate this work from yours
 if you do something nuts. Im not resposible for your behavior. Nor am I policing it. Dont film dead bodies or cause a race war 
 and you should be fine.
@@ -54,4 +54,11 @@ Aria - This is my hello world model that ive use to tinker with.
 
 OC - an oc I am doing for someone
 
-Sashed, vanilla oot but with a baldric from MM
+Sashed - vanilla oot but with a baldric from MM
+
+Majora Theme - Fierce Diety and young link from MM
+
+Zora Link - Zora link over adult link and a template mm compatible version
+
+Malon - Malon for the OoT Online project.
+

@@ -39,8 +39,7 @@ DICTIONARY
     DL_RFIST                    0x00FD08        "Fist.R"
 
     // Equipment
-    DL_SHIELD_MIRROR_FACE       0x015F98
-    DL_SHIELD_MIRROR            0x016058        "Shield.2"
+    DL_SHIELD_MIRROR            0x01e250        "Shield.2"
     DL_BLADE_GFSWORD            0x0164B8        "Sword.4"
     DL_SHEATH_GILDED            0x0168C0        "Sheath.3"
     DL_HILT_GILDED              0x016BA0        "Hilt.3"
@@ -54,7 +53,7 @@ DICTIONARY
     DL_OCARINA_TIME             0x00EE78        "Ocarina.2"
 
     // First-Person
-    DL_FPS_RIGHT_ARM            0x018738        "FPS.Forearm.R"
+    DL_FPS_RIGHT_ARM            0x017EC0        "FPS.Forearm.R"
 
     // Misc
     DL_BOW_STRING               0x017818         "Bow.String"
@@ -64,6 +63,8 @@ DICTIONARY
     GK_HILT_RAZOR               0x04001D00      // Razor Sword Handle
     GK_BLADE_KOKIRI             0x040028C0      // Kokiri Sword Blade
     GK_BLADE_RAZOR              0x04002168      // Razor Sword Blade
+
+    DL_FPS_LFIST                0x00F548        "FPS.Hand.L"
 END
 
 // Matrix function parameters:
@@ -83,8 +84,7 @@ OBJECT
           Matrix( 0, 0, 0, -480, -240, -14, 1, 1, 1 );
 
       DL_SHIELD_MIRROR_COMBINED: // Combined Face and Body
-          CallList(DL_SHIELD_MIRROR);
-          CallList(DL_SHIELD_MIRROR_FACE);
+	  CallList(DL_SHIELD_MIRROR);
 
       DL_SHIELD_HERO_BACK: // Rotated Hero's Shield
           CallMatrix( MATRIX_SHIELD_HERO_BACK );
@@ -140,26 +140,26 @@ OBJECT
           CallList( DL_RFIST );
 
       DL_RFIST_HOOKSHOT: // Right Fist + Hookshot
-          CallList( DL_HOOKSHOT );
-          CallList( DL_RFIST );
+            CallList( DL_HOOKSHOT );
+            CallList( DL_RFIST );
 
       DL_RFIST_BOW: // Right Fist + Bow
-          CallList( DL_BOW );
-          CallList( DL_RFIST );
+            CallList( DL_BOW );
+            CallList( DL_RFIST );
 
       DL_RHAND_OCARINA_TIME:
-          CallList( DL_OCARINA_TIME );
-          CallList( DL_RHAND );
+        CallList( DL_OCARINA_TIME );
+        CallList( DL_RHAND );
 
       DL_FPS_RARM_HOOKSHOT:
-          CallList( DL_HOOKSHOT );
-          CallList( DL_RFIST );
-          CallList( DL_RFOREARM );
+            CallList( DL_HOOKSHOT );
+	    CallList(DL_FPS_RIGHT_ARM);
+	    CallList(DL_RFOREARM);
 
       DL_FPS_RARM_BOW:
-          CallList( DL_BOW );
-          CallList( DL_RFIST );
-          CallList( DL_RFOREARM );
+            CallList( DL_BOW );
+	    CallList(DL_FPS_RIGHT_ARM);
+	    CallList(DL_RFOREARM);
 END
 
 REPOINT
@@ -223,8 +223,8 @@ REPOINT
       GoTo(0x00C567CC);                    // Outstreched Left Hand (for holding bottles)
       Write32(DL_LHAND_BOTTLE);
       Write32(DL_LHAND_BOTTLE);
-      GoTo(0x00C567F8);                    // Left Fist
-      Write32(DL_LFIST);
+       GoTo(0x00C567F8);                    // Left Fist
+      Write32(DL_FPS_LFIST);
       GoTo(0x00C5680C);                    // Right Shoulder
       Write32(DL_RSHOULDER);
       GoTo(0x00C56820);                    // FPS Right Arm + Hero's Bow
@@ -233,6 +233,8 @@ REPOINT
       Write32(DL_FPS_RARM_HOOKSHOT);
       GoTo(0x00C572D4);                    // Hero's Bow String
       Write32(DL_BOW_STRING);
+      GoTo(0xEE888C);
+      Write32(DL_LFOREARM);      
 
       // Hookshot Spike
       GoTo(0x00D3BC4E);

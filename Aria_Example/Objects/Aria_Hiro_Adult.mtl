@@ -131,10 +131,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
-vprop c
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\String_ZZRGBA16.png
 
-newmtl finger_String_ZZRGBA16
+newmtl finger_fingers.tga
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -143,7 +142,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\String_ZZRGBA16.png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
+vprop c
 
 newmtl gauntlets_ZZENV
 Ns 94.117647
@@ -189,11 +189,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\sheild_bottom_modern.png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\sheild_top_modern.png
 uprop c
 vprop c
 
-newmtl generic.003_top.png.000
+newmtl generic.003_bottom.png.000
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -202,7 +202,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\sheild_top_modern.png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\sheild_bottom_modern.png
 uprop c
 vprop c
 
@@ -442,11 +442,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\mamory(unused).png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\groove.png
 uprop c
 vprop c
 
-newmtl seam_ZZDECAL_ZZENV_groove
+newmtl seam_ZZDECAL_ZZENV_mamory(unused).png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.367228 0.367228 0.367228
@@ -455,7 +455,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\groove.png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\mamory(unused).png
 uprop c
 vprop c
 
@@ -796,10 +796,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade.png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade_ZZFORCERGBA.png
 texgen on
 
-newmtl sword.002_Blade.png.001
+newmtl sword.002_Blade.png.002
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.800000 0.800000 0.800000
@@ -808,7 +808,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade_ZZFORCERGBA.png
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade.png
 texgen on
 
 newmtl sword_Gold.png

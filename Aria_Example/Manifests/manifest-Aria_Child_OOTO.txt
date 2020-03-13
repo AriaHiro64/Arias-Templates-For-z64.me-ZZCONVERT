@@ -48,18 +48,14 @@ DICTIONARY
     DL_SWORD_HILT         0x0183C8    "Hilt.1"
     DL_SWORD_BLADE        0x018678    "Blade.1"
     DL_MASTER_SWORD       0x018FC8    "Blade.2"
-<<<<<<< HEAD
     DL_BOTTLE             0x02d648    "Bottle"
-=======
-    DL_BOTTLE             0x0194A8    "Bottle"
->>>>>>> 7ad34b9b3d7bc788146105e502322c43a3a21211
     DL_BOOMERANG          0x019900    "Boomerang"
     DL_SHIELD_DEKU        0x019D58    "Shield.1"
     DL_SHIELD_HYLIAN_BACK 0x019FA0    "Shield.2"
     DL_SLINGSHOT          0x01A3C8    "Slingshot"
     DL_OCARINA_FAIRY      0x01A6D0    "Ocarina.1"
     DL_OCARINA_TIME       0x01A958    "Ocarina.2"
-    DL_DEKU_STICK         0x01BF30  "DekuStick"
+    DL_DEKU_STICK         0x01BF30    "DekuStick"
 
     // Gear
     DL_GORON_BRACELET     0x01C208  "GoronBracelet"

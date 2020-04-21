@@ -14,6 +14,35 @@ DICTIONARY
 
     OBJ_CHILD             0x0011               // object_link_child object number
 
+    // gameplay_keep
+    VROM_GAMEPLAY_KEEP    O_0x0001
+    
+    // mask rom offsets
+	VROM_MASK_KEATON	O_0x01DA
+	VROM_MASK_BUNNY	O_0x1DB
+	VROM_MASK_CAPTAIN	O_0x01DC
+	VROM_MASK_TRUTH	O_0x01DE
+	VROM_MASK_GIBDO	O_0x01FD
+	VROM_MASK_GARO	O_0x01FE
+	VROM_MASK_KAFEI	O_0x01FF
+	VROM_MASK_FAIRY	O_0x0200
+	VROM_MASK_GIANT	O_0x0214
+	VROM_MASK_ROMANI	O_0x0219
+	VROM_MASK_POSTMAN	O_0x0221
+	VROM_MASK_CIRCUS	O_0x024C
+	VROM_MASK_STONE	O_0x024E
+	VROM_MASK_BREMEN	O_0x0252
+	VROM_MASK_DONGERO	O_0x025C
+	VROM_MASK_NIGHT	O_0x025D
+	VROM_MASK_COUPLE	O_0x025E
+	VROM_MASK_KAMARO	O_0x025F
+	VROM_MASK_BOMB	O_0x01DD
+	VROM_MASK_SCENTS	O_0x01D9
+	VROM_MASK_T1	O_0x01E1
+	VROM_MASK_T2	O_0x01E2
+	VROM_MASK_T3	O_0x01E3
+	VROM_MASK_T4	O_0x01E4
+
     // Hierarchy
     DL_WAIST                    0x00BDB0        "Limb 1" // this is the name zzconvert automatically uses
     DL_RTHIGH                   0x00B360        "Limb 3"
@@ -39,36 +68,30 @@ DICTIONARY
     DL_RFIST                    0x00FD08        "Fist.R"
 
     // Equipment
-    DL_SHIELD_MIRROR_FACE       0x015F98
-    DL_SHIELD_MIRROR            0x016058        "Shield.2"
+    DL_SHIELD_MIRROR_P            0x016480        "Shield.2"
     DL_BLADE_GFSWORD            0x016898        "Sword.4"
-    DL_SHEATH_GILDED            0x016B80        "Sheath.3"
-    DL_HILT_GILDED              0x017058        "Hilt.3"
-    DL_BLADE_GILDED             0x017310        "Blade.3"
-    DL_SHEATH_RAZOR             0x017338        "Sheath.2"
-    DL_SHIELD_HERO              0x017458        "Shield.1"
-    DL_SHEATH_KOKIRI            0x017700        "Sheath.1"
+    DL_SHEATH_GILDED_P            0x016B80        "Sheath.3"
+    DL_HILT_GILDED_P              0x017058        "Hilt.3"
+    DL_BLADE_GILDED_P             0x017310        "Blade.3"
+    DL_SHEATH_RAZOR_P             0x017338        "Sheath.2"
+    DL_SHIELD_HERO_P              0x017458        "Shield.1"
+    DL_SHEATH_KOKIRI_P            0x017700        "Sheath.1"
     DL_HOOKSHOT                 0x017858        "Hookshot"
-    DL_BOW                      0x0181C8        "Bow"
+    DL_BOW_P                      0x0181C8        "Bow"
     DL_HOOKSHOT_SPIKE           0x01D960        "Hookshot.Spike"
-    DL_OCARINA_TIME             0x010448        "Ocarina.2"
+    DL_OCARINA_TIME_P             0x010448        "Ocarina.2"
 
     // First-Person
-    DL_FPS_RIGHT_ARM            0x017EC0        "FPS.Forearm.R"
-
+    DL_FPS_RIGHT_ARM           0x017EC0        "FPS.Forearm.R"
+    DL_FPS_RIGHT_HAND          0x017EC0        "FPS.Hand.R"
     // Misc
-    DL_BOW_STRING               0x017818         "Bow.String"
-
+    DL_BOW_STRING_P               0x017818         "Bow.String"
+    
     // External dependencies (gameplay_keep)
-    GK_HILT_KOKIRI              0x040021A8      // Kokiri Sword Handle
-    GK_HILT_RAZOR               0x04001D00      // Razor Sword Handle
-    GK_BLADE_KOKIRI             0x040028C0      // Kokiri Sword Blade
-    GK_BLADE_RAZOR              0x04002168      // Razor Sword Blade
-
-
-    // First-Person
-    DL_FPS_LFIST                0x00F548        "FPS.Hand.L"
-   
+    GK_HILT_KOKIRI_P              0x040021A8      // Kokiri Sword Handle
+    GK_HILT_RAZOR_P               0x04001D00      // Razor Sword Handle
+    GK_BLADE_KOKIRI_P             0x040028C0      // Kokiri Sword Blade
+    GK_BLADE_RAZOR_P              0x04002168      // Razor Sword Blade
 END
 
 // Matrix function parameters:
@@ -76,20 +99,90 @@ END
 
 OBJECT
       MATRIX_SHIELD_MIRROR_BACK: // Mirror Shield Matrix
-          Matrix( 0, 0, 182, 552, 0, -50, 1, 1, 1 );
+          Matrix( 0, 0, 180, 935, 94, -21, 1, 1, 1 );
 
       MATRIX_SHIELD_HERO_BACK: // Hero Shield Matrix
-          Matrix( 0, 0, 182, 552, 0, 0, 1, 1, 1 );
+          Matrix( 0, 0, 180, 935, 94, 29, 1, 1, 1 );
 
       MATRIX_SWORD_BACK_A: // Kokiri / Gilded Hilt Matrix
-          Matrix( 0, 0, 0, -578, -221, -32, 1, 1, 1 );
+          Matrix( 3.6, 0, 0, -751.81, -300.5, -9.788, 1, 1, 1 );
 
       MATRIX_SWORD_BACK_B: // Razor Hilt Matrix
-          Matrix( 0, 0, 0, -480, -240, -14, 1, 1, 1 );
+          Matrix( 0, 0, 0, -619.477, -307.186, -34.9879, 1, 1, 1 );
 
-      DL_SHIELD_MIRROR_COMBINED: // Combined Face and Body
-          CallList(DL_SHIELD_MIRROR);
-          CallList(DL_SHIELD_MIRROR_FACE);
+      MATRIX_ADULT_SCALE: // Scale
+          Matrix( 0, 0, 0, 0, 0, 0, 1.25, 1.25, 1.25 );
+		  
+      MATRIX_MIRROR_SCALE: // Scale
+          Matrix( 0, 0, 0, 0, 0, 0, 1.15, 1.15, 1.15 );		  
+		  
+      DL_BOW:// BOW ADULT
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_BOW_P );
+          PopMatrix( 1 );
+		  
+      DL_BOW_STRING:// STRING ADULT
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_BOW_STRING_P );
+          PopMatrix( 1 );	
+
+      DL_OCARINA_TIME:// Hero's Shield
+          CallList( DL_OCARINA_TIME_P );
+          PopMatrix( 1 );
+
+      DL_SHIELD_HERO:// Hero's Shield
+          CallList( DL_SHIELD_HERO_P );
+          PopMatrix( 1 );
+
+      DL_SHIELD_MIRROR:// Mirror Shield
+          CallMatrix( MATRIX_MIRROR_SCALE );
+          CallList( DL_SHIELD_MIRROR_P );
+          PopMatrix( 1 );
+
+       DL_SHEATH_GILDED:// Gilded Sword Sheath
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_SHEATH_GILDED_P );
+          PopMatrix( 1 );
+
+      DL_HILT_GILDED:// Gilded Sword Hilt
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_HILT_GILDED_P );
+          PopMatrix( 1 );
+
+      DL_BLADE_GILDED:// Gilded Sword Blade
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_BLADE_GILDED_P );
+          PopMatrix( 1 );
+		  
+      GK_HILT_KOKIRI:// Kokiri Sword Hilt
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( GK_HILT_KOKIRI_P );
+          PopMatrix( 1 );
+		  
+      GK_BLADE_KOKIRI:// Kokiri Sword Blade
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( GK_BLADE_KOKIRI_P );
+          PopMatrix( 1 );		  
+
+      GK_BLADE_RAZOR:// Razor Sword Blade
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( GK_BLADE_RAZOR_P );
+          PopMatrix( 1 );
+		  
+      GK_HILT_RAZOR:// Razor Sword Hilt
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( GK_HILT_RAZOR_P );
+          PopMatrix( 1 );
+
+      DL_SHEATH_RAZOR:// Razor Sword Sheath
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_SHEATH_RAZOR_P );
+          PopMatrix( 1 );
+
+      DL_SHEATH_KOKIRI:// Kokiri Sword Sheath
+          CallMatrix( MATRIX_ADULT_SCALE );
+          CallList( DL_SHEATH_KOKIRI_P );
+          PopMatrix( 1 );
 
       DL_SHIELD_HERO_BACK: // Rotated Hero's Shield
           CallMatrix( MATRIX_SHIELD_HERO_BACK );
@@ -97,7 +190,7 @@ OBJECT
 
       DL_SHIELD_MIRROR_BACK: // Rotated Mirror Shield
           CallMatrix( MATRIX_SHIELD_MIRROR_BACK );
-          CallList( DL_SHIELD_MIRROR_COMBINED );
+          CallList( DL_SHIELD_MIRROR );
 
       DL_SWORD_KOKIRI_SHEATHED: // Sheathed Kokiri Sword
           CallMatrix( MATRIX_SWORD_BACK_A );
@@ -118,53 +211,57 @@ OBJECT
           CallList( DL_SHEATH_GILDED );
 
       DL_LFIST_KOKIRI_SWORD: // Left Fist + Kokiri Sword
-          CallList( GK_HILT_KOKIRI );
-          CallList( GK_BLADE_KOKIRI );
-          CallList( DL_LFIST );
+        CallList( GK_HILT_KOKIRI );
+        CallList( GK_BLADE_KOKIRI );
+        CallList( DL_LFIST );
 
       DL_LFIST_RAZOR_SWORD: // Left Fist + Razor Sword
-          CallList( GK_HILT_RAZOR );
-          CallList( GK_BLADE_RAZOR );
-          CallList( DL_LFIST );
+        CallList( GK_HILT_RAZOR );
+        CallList( GK_BLADE_RAZOR );
+        CallList( DL_LFIST );
 
       DL_LFIST_GILDED_SWORD: // Left Fist + Gilded Sword
-          CallList( DL_HILT_GILDED );
-          CallList( DL_BLADE_GILDED );
-          CallList( DL_LFIST );
+        CallList( DL_HILT_GILDED );
+        CallList( DL_BLADE_GILDED );
+        CallList( DL_LFIST );
 
       DL_LFIST_GFSWORD_SWORD: // Left Fist + Great Fairy's Sword
-          CallList( DL_BLADE_GFSWORD );
-          CallList( DL_LFIST );
+        CallList( DL_BLADE_GFSWORD );
+        CallList( DL_LFIST );
 
       DL_RFIST_SHIELD_HERO: // Right Fist + Hero's Shield
-          CallList( DL_SHIELD_HERO );
-          CallList( DL_RFIST );
+            CallList( DL_SHIELD_HERO );
+            CallList( DL_RFIST );
 
       DL_RFIST_SHIELD_MIRROR: // Right Fist + Mirror Shield
-          CallList( DL_SHIELD_MIRROR_COMBINED );
-          CallList( DL_RFIST );
+            CallList( DL_SHIELD_MIRROR );
+            CallList( DL_RFIST );
 
       DL_RFIST_HOOKSHOT: // Right Fist + Hookshot
-          CallList( DL_HOOKSHOT );
-          CallList( DL_RFIST );
+            CallList( DL_RFIST );
+            CallList( DL_HOOKSHOT );
 
       DL_RFIST_BOW: // Right Fist + Bow
-          CallList( DL_BOW );
-          CallList( DL_RFIST );
+            CallList( DL_BOW );
+            CallList( DL_RFIST );
 
       DL_RHAND_OCARINA_TIME:
-          CallList( DL_OCARINA_TIME );
-          CallList( DL_RHAND );
+        CallList( DL_OCARINA_TIME );
+        CallList( DL_RHAND );
 
       DL_FPS_RARM_HOOKSHOT:
-          CallList( DL_HOOKSHOT );
-          CallList( DL_FPS_RIGHT_ARM );
-          CallList( DL_RFOREARM );
+            CallList( DL_HOOKSHOT );
+            CallList( DL_FPS_RIGHT_ARM );
+            CallList( DL_FPS_RIGHT_HAND );
 
       DL_FPS_RARM_BOW:
-          CallList( DL_BOW );
-          CallList( DL_FPS_RIGHT_ARM );
-          CallList( DL_RFOREARM );
+            CallList( DL_BOW );
+            CallList( DL_FPS_RIGHT_ARM);
+            CallList( DL_FPS_RIGHT_HAND );
+			
+      DL_DF_COMMAND: // just an ordinary DF command
+          HexString(DF 00 00 00 00 00 00 00);			
+				  
 END
 
 REPOINT
@@ -229,7 +326,7 @@ REPOINT
       Write32(DL_LHAND_BOTTLE);
       Write32(DL_LHAND_BOTTLE);
       GoTo(0x00C567F8);                    // Left Fist
-      Write32(DL_FPS_LFIST);
+      Write32(DL_LFIST);
       GoTo(0x00C5680C);                    // Right Shoulder
       Write32(DL_RSHOULDER);
       GoTo(0x00C56820);                    // FPS Right Arm + Hero's Bow
@@ -239,25 +336,121 @@ REPOINT
       GoTo(0x00C572D4);                    // Hero's Bow String
       Write32(DL_BOW_STRING);
 
+      // FPS Glitch Fix (Thanks Fkualol!)
+      GoTo(0x00C567E4);
+      Write32(DL_DF_COMMAND);
+
+      // Swordless fix	(Thanks Nick!)	  
+      GoTo(0x00C565E4);
+      Write32(DL_DF_COMMAND);                   // Sheathed Sword + shield	  
+      GoTo(0x00C565BC);
+      Write32(DL_DF_COMMAND);                   // Sheathed Sword
+	  
+	  //Unknown Pointers (?)
+	  GoTo(0x00C56594);
+      Write32(DL_DF_COMMAND);
+	  GoTo(0x00C56598);
+      Write32(DL_DF_COMMAND);
+	  GoTo(0x00C565C0);
+      Write32(DL_DF_COMMAND);
+	  GoTo(0x00C565E8);
+      Write32(DL_DF_COMMAND); 
+	  
       // Hookshot Spike
       GoTo(0x00D3BC4E);
       Hi32(DL_HOOKSHOT_SPIKE);
       GoTo(0x00D3BC52);
       Lo32(DL_HOOKSHOT_SPIKE);
-	
-      GoTo(0x00C56378); // Evil Adult Link Physics hack
-      HexString(00C803E8012C02BC0226010E02BC012C007803200258FF9C0258024E02EE007D00C80082);
-      GoTo(0x00CD6218);
-      HexString(4260000042B400003F80000042DE0000428C0000429ECCCD426C0000422400004198000042100000 424800004260000042880000428C00004190000041B80000428C00000009123F016700081256017C000917EA016700081256017C000917EA0167000917EA016700091E0D017C000917EA016700091E0D017C00081256017C000917EA0167F9C81256017CF9C917EA016700200080000041B00000421000000400E3000400D5480400D6600400E3780400E3800400E3880400E3900400DAB00400DAB80400DA900400DA980400E3580400E3600400E3700400E368);
-      GoTo(0x00FFA188); 
-      HexString(3C0142C0);
-      GoTo(0x00FF87D0); 
-      HexString(240E0000);
-      GoTo(0x00C72FA8);
-      HexString(800B7058);
-      GoTo(0x00CD63FC);
-      HexString(0400E3D00400E3D00400E3D00400E3D00400E3D00400E3D0);
-      GoTo(0x00CD63CC);
-      HexString(0400E3C80400E3C80400E3C80400E3C80400E3C80400E3C8);
-	
+	  
+      // FPS Glitch Fix
+      GoTo(0x00C567E4);
+      Write32(DL_DF_COMMAND);	  
+
+      // Adult Size
+      GoTo( 0x00C56378 );
+      HexString( 00C803E8012C02BC0226010E02BC012C007803200258FF9C0258024E02EE007D00C80082 );
+      GoTo( 0x00CD6218 );
+      HexString(4260000042B400003F80000042DE0000428C0000429ECCCD426C0000422400004198000042100000424800004260000042880000428C00004190000041B80000428C00000009123F016700081256017C000917EA016700081256017C000917EA0167000917EA016700091E0D017C000917EA016700091E0D017C00081256017C000917EA0167F9C81256017CF9C917EA016700);
+      GoTo( 0x00CD62AB );
+
+///////////////////
+// Voice Selector//
+// 00 is adult   //
+// 20 is child   //
+// 50 is fairy   //
+// 80 is deku    //
+// A0 is zora    //
+// C0 is goron   //
+// E0 is pig     //
+///////////////////
+
+      Write8(0x20); 
+      GoTo( 00CD62AC );
+      HexString( 0080000041B00000421000000400E3000400D5480400D6600400E3780400E3800400E3880400E3900400DAB00400DAB80400DA900400DA980400E3580400E3600400E3700400E368 );
+      GoTo( 0x00FFA188 ); 
+      HexString ( 3C0142C0 );
+      GoTo( 0x00FF87D0 ); 
+      HexString( 240E0000 );
+      GoTo( 0x00C72FA8 );
+      HexString( 800B7058 );
+	  
+	  //Door animation Fix by Zel
+	  GoTo( 0x00CD63FC ); 
+      HexString( 0400E3D00400E3D00400E3D00400E3D00400E3D00400E3D0 );
+      GoTo( 0x00CD63CC );
+      HexString( 0400E3C80400E3C80400E3C80400E3C80400E3C80400E3C8 );
+	  
+//Sword hitbox Fix by Crooked Poe
+	  //Kokiri Sword length
+	  GoTo( 0x00C572BC ); 
+      HexString( 457A0000 );
+	  //Razor Sword length
+      GoTo( 0x00C572C0 );
+      HexString( 457A0000 );
+	  //Gilded Sword length
+      GoTo( 0x00C572C4 );
+      HexString( 45ABE000 );	
+	  
+//Fix Sword spin
+
+		//Blade Length
+		GoTo(VROM_GAMEPLAY_KEEP+0x268F0);	  
+		HexString(DE 00 00 00 04 05 A2 E0);				
+		
+	  
+	  // Epona Height Child undo
+	  GoTo( 0x00CCA684 );  
+      HexString( 3C0141D8 );
+
+		///////////////////////////////
+		//                           //
+		//  Adult Link Mask Scaling  //
+		//                           //
+		///////////////////////////////
+
+//Presented to you by Dr.Disco PHD and Skilar not PHD//
+
+		// add matrix and display list to gameplay_keep
+		GoTo(VROM_GAMEPLAY_KEEP+0x5A2A0);
+		HexString(00 01 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 01 40 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 E7 00 00 00 00 00 00 00 DA 38 00 01 04 05 A2 A0 DF 00 00 00 00 00 00 00);
+
+		// make Keaton Mask use above matrix
+		GoTo(VROM_MASK_KEATON+0x4A8);
+		HexString(DE 00 00 00 04 05 A2 E0);
+
+		// make Bunny Hood use above matrix
+		GoTo(VROM_MASK_BUNNY+0x620);
+		HexString(DE 00 00 00 04 05 A2 E0);
+		GoTo(VROM_MASK_BUNNY+0x780);
+		HexString(DE 00 00 00 04 05 A2 E8);
+		GoTo(VROM_MASK_BUNNY+0x7B0);
+		HexString(DE 00 00 00 04 05 A2 E0);
+		GoTo(VROM_MASK_BUNNY+0x890);
+		HexString(DE 00 00 00 04 05 A2 E8);
+		GoTo(VROM_MASK_BUNNY+0x8C0);
+		HexString(DE 00 00 00 04 05 A2 E0);
+
+		// make Mask of Scents use above matrix
+		GoTo(VROM_MASK_SCENTS+0x718);
+		HexString(DE 00 00 00 04 05 A2 E0);
 END

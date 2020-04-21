@@ -52,7 +52,7 @@ DICTIONARY
     DL_SHIELD_HYLIAN      0x018BC0    "Shield.2"
     DL_SHIELD_MIRROR      0x0190E8    "Shield.3"
     DL_HAMMER             0x0184A8    "Hammer"
-    DL_BOTTLE             0x037ec8    "Bottle"
+    DL_BOTTLE             0x0188E8    "Bottle"
     DL_BOW                0x019810    "Bow"
     DL_OCARINA_TIME       0x019AE0    "Ocarina.2"
     DL_HOOKSHOT           0x019FC0    "Hookshot"

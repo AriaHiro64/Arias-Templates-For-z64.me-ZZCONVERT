@@ -1,0 +1,388 @@
+# Blender MTL File: 'Aria_Hiro_Child_OOTO_Swim.blend'
+# Material Count: 32
+
+newmtl Slingshot_String_NOCULL.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.610496
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\HAIR.PNG
+
+newmtl Slingshot_String_NOCULL.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.610496
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl a_ZZENV
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade.png
+texgen on
+
+newmtl generic
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Aria\eyes.png
+uprop c
+vprop c
+
+newmtl generic.003
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\String_ZZRGBA16.png
+
+newmtl generic_Blade.003
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade.png
+texgen on
+
+newmtl generic_String_ZZRGBA16.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\String_ZZRGBA16.png
+
+newmtl generic_ear.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\ear.png
+
+newmtl generic_fingers.tga.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
+vprop c
+
+newmtl generic_hair.png.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\HAIR.PNG
+
+newmtl generic_mouth.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Child\mouth.png
+uprop c
+vprop c
+
+newmtl generic_skin.png
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.png
+uprop c
+vprop c
+
+newmtl generic_skin.png.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.tga
+uprop c
+vprop c
+
+newmtl leather.000
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.005605 0.005605 0.005605
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade.png
+texgen on
+
+newmtl leather.000_skin.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.005605 0.005605 0.005605
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.png
+uprop c
+vprop c
+
+newmtl mtl_04001400
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\ocarina.tga
+uprop c
+vprop c
+map_d C:\\Users\\ariah\\github\\Arias-Templates-For-z64.me-ZZCONVERT\\Aria_Example\\textures\\Equiptment\\oot.tga
+
+newmtl mtl_04001400_oot
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Equiptment\oot.tga
+uprop c
+vprop c
+map_d C:\\Users\\ariah\\github\\Arias-Templates-For-z64.me-ZZCONVERT\\Aria_Example\\textures\\Equiptment\\oot.tga
+
+newmtl mtl_06008DE0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Sashed_link_child\textures\06008DE0.tga
+vprop c
+map_d C:\\Users\\ariah\\github\\Arias-Templates-For-z64.me-ZZCONVERT\\Sashed_link_child\\textures\\06008DE0.tga
+
+newmtl skin
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
+vprop c
+
+newmtl skin.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\HAIR.PNG
+
+newmtl skin_TEXGEN
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Shine\Blade.png
+texgen on
+
+newmtl skin_TEXGEN.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
+vprop c
+
+newmtl skin_TEXGEN.001_fist.tga.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fist.tga
+
+newmtl skin_TEXGEN.001_hand_side.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\hand_side.tga
+
+newmtl skin_TEXGEN.001_skin.png.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.tga
+uprop c
+vprop c
+
+newmtl skin_TEXGEN.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
+vprop c
+
+newmtl skin_TEXGEN.002_fist.tga.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fist.tga
+
+newmtl skin_TEXGEN.002_hand_side.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\hand_side.tga
+
+newmtl skin_TEXGEN.002_skin.png.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.tga
+uprop c
+vprop c
+
+newmtl skin_TEXGEN_fingers.tga
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\fingers.tga
+vprop c
+
+newmtl skin_TEXGEN_skin.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.png
+uprop c
+vprop c
+
+newmtl skin_skin.png.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\github\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\Anatomy\skin.tga
+uprop c
+vprop c

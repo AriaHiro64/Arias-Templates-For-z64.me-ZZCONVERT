@@ -1,0 +1,123 @@
+# Blender MTL File: 'Equiptment.blend'
+# Material Count: 10
+
+newmtl String_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Equiptment\String_ZZRGBA16.png
+
+newmtl Wood_ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.142357 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Equiptment\Back.png
+uprop c
+
+newmtl generic
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Equiptment\sheild_top_vanilla.png
+uprop c
+vprop c
+
+newmtl generic.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Shine\Gold.png
+texgen on
+
+newmtl generic.001_mastersword
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Equiptment\mastersword.png
+
+newmtl generic.ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.500000
+illum 2
+map_Kd textures\Shine\dARK_ZZFORCERGBA16.png
+texgen on
+
+newmtl generic_ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.385366
+illum 2
+map_Kd textures\Shine\dARK_ZZFORCERGBA16.png
+texgen on
+
+newmtl generic_bottom.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Equiptment\sheild_bottom_vanila.png
+uprop c
+vprop c
+
+newmtl sword
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Equiptment\tri.png
+uprop c
+vprop c
+
+newmtl sword.001
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Shine\Blade_ZZFORCERGBA.png
+texgen on
